@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios Web | Javier Hernández</title>
+
+  <meta name="description" content="Servicios profesionales de diseño, desarrollo web y tiendas online.">
+  <meta name="author" content="Ing. Javier Hernández">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li>
+          <a href="#carrito">
+            🛒 Carrito (<span id="cart-count">0</span>)
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <img
+        src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1600&auto=format&fit=crop"
+        alt="Diseño web en laptop"
+      />
+      <div class="hero-text">
+        <h1>Sitios Web Profesionales & Modernos</h1>
+        <p>Landing pages – tiendas online – webs corporativas optimizadas para conversión.</p>
+        <a href="#contacto" class="button-accent">Solicitar presupuesto</a>
+      </div>
+    </section>
+     <!-- SERVICIOS (Productos dinámicos via API) -->
+    <section id="productos">
+    
+
+      <div id="lista-productos" class="productos-container">
+        <!-- JS inyectará aquí las cards -->
+      </div>
+    </section>
+
+    <!-- PROCESO DE TRABAJO -->
+    <section id="proceso" class="proceso">
+      <h2>Así trabajamos tu proyecto</h2>
+      <p class="proceso-intro">
+        No es solo “hacer una web”. Seguimos un proceso claro para que tengas
+        un sitio alineado a tus objetivos de negocio.
+      </p>
+
+      <ol class="proceso-pasos">
+        <li>
+          <h3>1. Diagnóstico y objetivo</h3>
+          <p>Entendemos tu negocio, tu oferta y qué acción concreta querés que el usuario haga en la web.</p>
+        </li>
+        <li>
+          <h3>2. Estructura y contenido</h3>
+          <p>Definimos la arquitectura, secciones clave y mensajes que venden sin ser invasivos.</p>
+        </li>
+        <li>
+          <h3>3. Diseño y desarrollo</h3>
+          <p>Diseño moderno, responsive, optimizado para velocidad y preparado para campañas de anuncios.</p>
+        </li>
+        <li>
+          <h3>4. Medición y soporte</h3>
+          <p>Conectamos Analytics/Tags y te acompaño en los primeros ajustes según datos reales.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+      <h2>Cómo funciona una Landing Page</h2>
+      <p>Video explicativo para entender el valor de un sitio optimizado.</p>
+
+      <div class="video-embed">
+        <video controls>
+          <source src="Video-landing-pages.mp4" type="video/mp4" />
+          Tu navegador no soporta el video.
+        </video>
+      </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section id="reseñas">
+      <h2>Reseñas</h2>
+
+      <div class="reseñas-grid">
+        <div class="item">
+          <p>
+            “Contratamos una landing page para una campaña de anuncios y la diferencia fue inmediata.
+            La tasa de conversión pasó del 1.2% al 4.8% en menos de dos semanas. El diseño fue moderno,
+            rápido y perfectamente adaptado al mensaje de nuestra marca.”
+          </p>
+          <strong>— Valentina R., Marketing Digital</strong>
+        </div>
+
+        <div class="item">
+          <p>
+            “Nos desarrollaron una web corporativa con SEO técnico y mejoras de velocidad. Antes tardaba
+            6 segundos en cargar, ahora carga en menos de 1 segundo. Esto nos ayudó a mejorar el
+            posicionamiento orgánico y a recibir más consultas por formulario.”
+          </p>
+          <strong>— Martín P., Director en PyME Tech</strong>
+        </div>
+
+        <div class="item">
+          <p>
+            “El e-commerce quedó increíble. Se integraron los métodos de pago locales, envíos automatizados
+            y un panel de administración muy fácil de usar. En el primer mes vendimos un 35% más que con
+            nuestra tienda anterior.”
+          </p>
+          <strong>— Sofía M., Tienda de Indumentaria</strong>
+        </div>
+
+        <div class="item">
+          <p>
+            “Solicitamos una optimización completa de velocidad y pasamos de un puntaje de PageSpeed 48 a 92
+            en versión móvil. La diferencia en la experiencia del usuario es enorme y se redujeron las tasas
+            de rebote.”
+          </p>
+          <strong>— Diego A., Consultor Independiente</strong>
+        </div>
+
+        <div class="item">
+          <p>
+            “Excelente acompañamiento en todo el proceso. Nos brindaron asesoría de branding, estructura del
+            sitio y copywriting. Hoy tenemos una identidad visual clara y una página profesional que refleja
+            quiénes somos.”
+          </p>
+          <strong>— Laura G., Emprendedora</strong>
+        </div>
+
+        <div class="item">
+          <p>
+            “Contraté mantenimiento mensual y fue la mejor decisión. Me resuelven todo: actualizaciones,
+            seguridad, backups y cambios pequeños en la web. Puedo enfocarme en mi negocio sin preocuparme
+            por lo técnico.”
+          </p>
+          <strong>— Ricardo S., Servicios Inmobiliarios</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ + CTA FINAL -->
+    <section id="faq" class="faq">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-grid">
+        <article>
+          <h3>¿En cuánto tiempo puedo tener mi sitio listo?</h3>
+          <p>Depende del alcance, pero una landing simple suele estar lista entre 7 y 14 días desde que definimos contenido.</p>
+        </article>
+        <article>
+          <h3>¿Trabajás solo con Argentina?</h3>
+          <p>No, podés contratar desde cualquier país. Coordinamos todo por videollamada y herramientas online.</p>
+        </article>
+        <article>
+          <h3>¿Me ayudás con los textos?</h3>
+          <p>Sí. Te propongo una estructura y copy base pensado para conversión, que luego ajustamos juntos.</p>
+        </article>
+        <article>
+          <h3>¿Qué pasa si necesito cambios después?</h3>
+          <p>Podés contratar un pack de horas o mantenimiento mensual para ir ajustando tu sitio con el tiempo.</p>
+        </article>
+      </div>
+
+      <div class="faq-cta">
+        <h3>¿Tenés dudas específicas sobre tu proyecto?</h3>
+        <p>Escribime y vemos juntos qué tipo de sitio te conviene y en qué etapa estás.</p>
+        <a href="#contacto" class="button-accent">Quiero hablar de mi proyecto</a>
+      </div>
+    </section>
+
+    <!-- PANEL DE CARRITO LATERAL -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+
+    <aside id="carrito" class="cart-panel" aria-hidden="true">
+      <header class="cart-header">
+        <h2>Carrito de Compras</h2>
+        <button id="cart-close" class="cart-close" aria-label="Cerrar carrito">×</button>
+      </header>
+
+      <div class="cart-body">
+        <div id="carrito-items"></div>
+      </div>
+
+      <footer class="cart-footer">
+        <p class="total">
+          <strong>Total: $<span id="carrito-total">0.00</span></strong>
+        </p>
+
+        <button id="btn-vaciar-carrito" class="btn-vaciar">Vaciar carrito</button>
+        <button id="btn-comprar" class="btn-comprar">Comprar</button>
+      </footer>
+    </aside>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <div class="contact-header">
+        <span class="contact-icon">📨</span>
+        <div>
+          <h2>Solicitar presupuesto</h2>
+          <p>Contame qué querés crear y te respondo con una propuesta a medida.</p>
+        </div>
+      </div>
+
+      <form
+        action="https://formspree.io/f/tu-id-aqui"
+        method="POST"
+        class="form-contacto"
+        aria-label="Formulario de contacto"
+      >
+        <div class="field-group">
+          <label for="nombre">¿Cómo te llamás?</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Javier, Laura, Agencia XYZ..."
+            required
+          />
+        </div>
+
+        <div class="field-group">
+          <label for="email">¿A qué correo te escribo?</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="nombre@tuempresa.com"
+            required
+          />
+        </div>
+
+        <div class="field-group">
+          <span class="label-inline">¿Qué querés que construyamos?</span>
+          <div class="pill-group">
+            <label class="pill-option">
+              <input type="checkbox" name="tipo_proyecto[]" value="Landing page" />
+              <span>Landing page</span>
+            </label>
+            <label class="pill-option">
+              <input type="checkbox" name="tipo_proyecto[]" value="Web corporativa" />
+              <span>Web corporativa</span>
+            </label>
+            <label class="pill-option">
+              <input type="checkbox" name="tipo_proyecto[]" value="Tienda online" />
+              <span>Tienda online</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="field-group field-row">
+          <div>
+            <label for="presupuesto">Presupuesto estimado</label>
+            <select id="presupuesto" name="presupuesto">
+              <option value="">Lo vemos juntos</option>
+              <option value="Hasta 50000">Hasta $500.000</option>
+              <option value="500.000 - 750.000">$500.000 – $750.000</option>
+              <option value="750.000 - 1.000.000">$750.000 – $1.000.000</option>
+              <option value="1.250.000+">$2.500.000 o más</option>
+            </select>
+          </div>
+          <div>
+            <label for="plazo">¿Para cuándo lo necesitás?</label>
+            <select id="plazo" name="plazo">
+              <option value="Sin apuro">Sin apuro</option>
+              <option value="Este mes">Este mes</option>
+              <option value="Lo antes posible">Lo antes posible</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="mensaje">Contame un poco más</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            placeholder="Ej: Necesito una landing para una campaña de anuncios, con formulario y conexión a WhatsApp."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar mi idea</button>
+      </form>
+
+      <!-- MAPA CENTRADO: HMC Martínez -->
+      <div class="mini-map-centered">
+        <h3>Ubicación: HMC Martínez</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.024911503128!2d-58.530579!3d-34.504304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0f47cbb059d%3A0x1892d80ff4d0e154!2sHMC%20-%20Santiago%20del%20Estero%202687%2C%20Mart%C3%ADnez!5e0!3m2!1ses-419!2sar!4v1702300000000"
+          loading="lazy"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- MODAL UNIVERSAL (alert + confirm) -->
+    <div id="modal-universal-overlay" class="modal-overlay">
+      <div class="modal-box" id="modal-universal">
+        <h3 id="modal-universal-titulo"></h3>
+        <p id="modal-universal-mensaje"></p>
+
+        <div id="modal-universal-buttons">
+          <!-- Botones se generan dinámicamente -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- MAPA FLOTANTE: HMC Martínez -->
+  <div class="mini-map-floating">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.024911503128!2d-58.530579!3d-34.504304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0f47cbb059d%3A0x1892d80ff4d0e154!2sHMC%20-%20Santiago%20del%20Estero%202687%2C%20Mart%C3%ADnez!5e0!3m2!1ses-419!2sar!4v1702300000000"
+      loading="lazy"
+      allowfullscreen=""
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

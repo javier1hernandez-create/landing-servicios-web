@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Landing Page de Conversión PRO",
+    "price": 3500000,
+    "description": "Landing optimizada para anuncios (Meta/Google), copy profesional e integración con CRM o email marketing."
+  },
+  {
+    "id": 2,
+    "title": "Web Corporativa Profesional",
+    "price": 700000,
+    "description": "Sitio institucional hasta 6 secciones, blog inicial y SEO técnico básico para posicionar tu marca."
+  },
+  {
+    "id": 3,
+    "title": "E-commerce Completo",
+    "price": 1300000,
+    "description": "Tienda online con carrito, checkout, medios de pago y panel para gestionar productos y pedidos."
+  },
+  {
+    "id": 4,
+    "title": "Tienda Online Express",
+    "price": 1000000,
+    "description": "Tienda ágil para lanzarte rápido: catálogo básico, checkout rápido y métodos de envío integrados."
+  },
+  {
+    "id": 5,
+    "title": "Optimización de Velocidad (PageSpeed 90+)",
+    "price": 500000,
+    "description": "Mejora de tiempos de carga, Core Web Vitals y optimización de imágenes, CSS y JS."
+  },
+  {
+    "id": 6,
+    "title": "SEO Técnico Completo",
+    "price": 400000,
+    "description": "Implementación de sitemap, robots.txt, estructura de títulos y configuración para indexación correcta."
+  },
+  {
+    "id": 7,
+    "title": "Mantenimiento Web Mensual",
+    "price": 350000,
+    "description": "Actualizaciones, backups, monitoreo de errores y soporte técnico para tu sitio o tienda."
+  },
+  {
+    "id": 8,
+    "title": "Branding y Diseño Web",
+    "price": 1500000,
+    "description": "Paleta de colores, tipografías, logo básico e identidad visual aplicada a tu sitio."
+  }
+]

@@ -946,3 +946,52 @@ body.cart-open .mini-map-floating {
     height: 100px;
   }
 }
+/* 📱 Versión mobile */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  header,
+  main,
+  footer {
+    padding-inline: 1rem;
+  }
+
+  /* Navegación: que no quede gigante */
+  .nav-bar, nav, .nav {
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Hero: imagen y texto en columna */
+  .hero,
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hero img,
+  .hero-media img {
+    width: 100%;
+    height: auto;
+    border-radius: .8rem;
+  }
+
+  /* Tarjetas / secciones principales */
+  .card,
+  .servicio-card,
+  .plan-card {
+    width: 100%;
+    max-width: 480px;
+    margin-inline: auto;
+  }
+
+  /* Mapa o iframe */
+  iframe {
+    width: 100%;
+  }
+}
